@@ -1,4 +1,8 @@
 /* =================================================================== 
+ *  Ethos Main Stylesheet
+ *  Template Ver. 1.0.0
+ *  11-05-2019
+ *  ------------------------------------------------------------------
  *
  *  TOC:
  *  # custom block grid STACK breakpoints
@@ -44,6 +48,8 @@
  *    ## go top
  *
  * =================================================================== */
+
+
 
 
 /* ===================================================================
@@ -2471,7 +2477,7 @@ html.no-csstransitions .hero-content {
   width: 24vw;
   position: absolute;
   top: 8rem;
-  left: calc(50% + 30px);
+  left: calc(50% + 80px);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3473,189 +3479,4 @@ html.no-csstransitions .hero-content {
     bottom: 4rem;
   }
 
-}
-
-.skw-pages {
-  overflow: hidden;
-  position: relative;
-  height: 100vh;
-}
-
-.skw-page {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-
-.skw-page__half {
-  position: absolute;
-  top: 0;
-  width: 50%;
-  height: 100vh;
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
-}
-
-.skw-page__half--left {
-  left: 0;
-  -webkit-transform: translate3d(-40.4vh, 100%, 0);
-          transform: translate3d(-40.4vh, 100%, 0);
-}
-
-.skw-page__half--right {
-  left: 50%;
-  -webkit-transform: translate3d(40.4vh, -100%, 0);
-          transform: translate3d(40.4vh, -100%, 0);
-}
-
-.skw-page.active .skw-page__half {
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-}
-
-.skw-page__skewed {
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 140%;
-  height: 100%;
-  -webkit-transform: skewX(-18deg);
-          transform: skewX(-18deg);
-  background: #000;
-}
-
-.skw-page__half--left .skw-page__skewed {
-  left: -40%;
-}
-
-.skw-page__half--right .skw-page__skewed {
-  right: -40%;
-}
-
-.skw-page__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  padding: 0 30%;
-  color: #fff;
-  -webkit-transform: skewX(18deg);
-          transform: skewX(18deg);
-  -webkit-transition: opacity 1s, -webkit-transform 1s;
-  transition: opacity 1s, -webkit-transform 1s;
-  transition: transform 1s, opacity 1s;
-  transition: transform 1s, opacity 1s, -webkit-transform 1s;
-  background-size: cover;
-}
-
-.skw-page__half--left .skw-page__content {
-  padding-left: 30%;
-  padding-right: 30%;
-  -webkit-transform-origin: 100% 0;
-          transform-origin: 100% 0;
-}
-
-.skw-page__half--right .skw-page__content {
-  padding-left: 30%;
-  padding-right: 30%;
-  -webkit-transform-origin: 0 100%;
-          transform-origin: 0 100%;
-}
-
-.skw-page.inactive .skw-page__content {
-  opacity: 0.5;
-  -webkit-transform: skewX(18deg) scale(0.95);
-          transform: skewX(18deg) scale(0.95);
-}
-
-.skw-page__heading {
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  font-size: 25px;
-  text-align: center;
-  color: #ef664d;
-}
-
-.skw-page__description {
-  font-size: 18px;
-  text-align: center;
-}
-
-.skw-page__action {
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-}
-
-.skw-page__link {
-  color: #FFA0A0;
-}
-
-.see_more_btn{
-  padding: 10px 15px;
-  color: #ef664d;
-  border-radius: 6px;
-  background: #292929;
-  border: #ef664d solid 0.5px;
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.skw-page-1 .skw-page__half--left .skw-page__content {
-  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/empty-paved-road-at-sunset-in-the-chilean-patagonia-royalty-free-image-1591901619.jpg");
-}
-
-.skw-page-1 .skw-page__half--right .skw-page__content {
-  background: #292929;
-}
-
-.skw-page-2 .skw-page__half--left .skw-page__content {
-  background: #292929;
-}
-
-.skw-page-2 .skw-page__half--right .skw-page__content {
-  background-image: url("./images/iblazeImage.png");
-}
-
-.skw-page-3 .skw-page__half--left .skw-page__content {
-  background-image: url("./images/webtrace.png");
-}
-
-.skw-page-3 .skw-page__half--right .skw-page__content {
-  background: #292929;
-}
-
-.skw-page-4 .skw-page__half--left .skw-page__content {
-  background: #292929;
-}
-
-.skw-page-4 .skw-page__half--right .skw-page__content {
-  background-image: url("./images/nplboost.png");
-}
-
-.skw-page-5 .skw-page__half--left .skw-page__content {
-  background-image: url("https://m.media-amazon.com/images/I/51UW1849rJL._AC_SX679_.jpg");
-}
-
-.skw-page-5 .skw-page__half--right .skw-page__content {
-  background: #292929;
 }
