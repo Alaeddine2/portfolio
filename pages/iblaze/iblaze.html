@@ -1,124 +1,529 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
+
 <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Iblaze</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>IBlaze</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="../../css/base.css">
-    <link rel="stylesheet" href="../../css/main.css">
-    <link rel="stylesheet" href="./iblaze.css">
-    <link rel="stylesheet" href="../../css/vendor.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="../../vendor/aos/aos.css" rel="stylesheet">
+  <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../../vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- script
-    ================================================== -->
-    <script src="../../js/modernizr.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    
-    <!-- favicons
-    ================================================== -->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"> -->
-    <link rel="manifest" href="../../site.webmanifest">
+  <!-- Template Main CSS File -->
+  <link href="../../css/style.css" rel="stylesheet">
+  <link href="../../css/main.css" rel="stylesheet">
 
 </head>
 
-<body id="top">
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-
+<body>
 
     <!-- header
     ================================================== -->
     <header class="s-header">
 
-        <div class="header-content">
-    
-            <nav class="row header-nav-wrap">
-                <ul class="header-nav">
-                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="About">Introduction</a></li>
-                    <li><a class="smoothscroll" href="#technologies" title="Technologies">Technologies</a></li>
-                    <li><a class="smoothscroll" href="#challenges" title="Challenges">Challenges</a></li>
-                    <li><a class="smoothscroll" href="#features" title="Features">Features</a></li>
-                </ul>
-            </nav> <!-- end header-nav-wrap -->
+      <div class="header-content">
+  
+          <nav class="row header-nav-wrap">
+              <ul class="header-nav">
+                  <li><a class="smoothscroll" href="../../index.html" title="Home">Home</a></li>
+                  <li><a class="smoothscroll" href="#features" title="features">App features</a></li>
+                  <li><a class="smoothscroll" href="#challenges" title="Challenges">Challenges</a></li>
+                  <li><a class="smoothscroll" href="#gallery" title="gallery">Gallery</a></li>
+                  <li><a class="smoothscroll" href="#technology" title="technology">technologies</a></li>
+                  <li><a class="smoothscroll" href="#custmers" title="technology">customers</a></li>
+                  <li><a href="mailto:#0" title="Contact us">Contact</a></li>
+              </ul>
+          </nav> <!-- end header-nav-wrap -->
 
-            <a href="https://drive.google.com/file/d/10-6-KDumcLW_GRX-ATF8geNpq5GBGKpQ/view?usp=sharing" class="btn btn--stroke btn--small">Download CV</a>
+      </div> <!-- end header-content -->
 
-        </div> <!-- end header-content -->
+      <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
 
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+  </header> 
 
-    </header> 
-    
-        <!-- hero
-    ================================================== -->
-    <section id="hero " class="s-hero target-section" data-parallax="scroll"  data-image-src="..\..\images\projects\iblaze_header.png" data-natural-width=1900 data-natural-height=1000 data-position-y=center>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
 
-        <div class="row hero-content particale-div">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
+          <div>
+            <h1>IBlaze Taxi</h1>
+            <h2 style="color: white;">Taxi and delivery application crafted using Flutter framework, based on new concept and available for multiple countries</h2>
+            <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
+            <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a>
+          </div>
+        </div>
+        <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
+          <img src="../../images/data/iblaze.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
 
-            <div class="">
-                <h2 class="header_text">
-                    Mobile Application
-                </h2>
-                <h1>
-                    Iblaze Taxi
-                </h1>
-            </div> 
+  </section>
 
-        </div> <!-- end hero-content -->
+  <main id="main">
 
-        <div class="hero-scroll">
-            <a href="#about" class="scroll-link smoothscroll">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
-            </a>
+    <!-- ======= App Features Section ======= -->
+    <section id="features" class="features s-about__section s-about__section--profile">
+      <div class="container">
+        <div class="section-intro" data-num="01" data-aos="fade-up">
+          <h3 class="subhead">App Features</h3>
+          <h3 class="display-1 col-xl-5">IBlaze contains multiple of features:</h3>
+      </div>
+        <div class="row no-gutters">
+          <div class="col-xl-7 d-flex align-items-stretch order-2 order-lg-1">
+            <div class="content d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="bx bx-taxi"></i>
+                  <h4>Order a taxi</h4>
+                  <p>User can order a taxi with one click and at anytime.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-time-five"></i>
+                  <h4>Book a taxi</h4>
+                  <p>User can book a taxi for another time, here the system will choise a taxi randomly then it will link the driver with his passengers</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-package"></i>
+                  <h4>Package delivery</h4>
+                  <p>Users can use our drivers [taxis] network to send a package to specific destination </p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-shield"></i>
+                  <h4>Multiple of payment methods</h4>
+                  <p>I have integrate multiple of payment methods like specifly in IBlaze Ivory Coast like: MTN money, Orange payment, EcoBank [SyberSource] and paypal</p>
+                </div>
+                <div class="col-md-12 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bx bx-atom"></i>
+                  <h4>Application auto-DataBase fragmentation</h4>
+                  <p>IBlaze application can separate it data (drivers, users, trips, delivaries...) by partners</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image col-xl-4 d-flex align-items-stretch justify-content-center order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100" style="margin-left: 5%;">
+            <img src="../../images/data/slider.svg" class="img-fluid" alt="">
+          </div>
         </div>
 
-    </section> <!-- end s-hero -->
-    <section id="about" class="s-about target-section">
-        <div class="s-about__section s-about__section--profile">
-            <div class="right-vert-line"></div>
-            <div class="row">
-                <div class="column large-6 medium-8 tab-full">
-                    <div class="profile-pic" data-aos="fade-up">
-                        <img src="../../images/projects/iblaze_screen.png" 
-                             srcset="../../images/projects/iblaze_screen.png 1x, ../../images/projects/iblaze_screen.png 2x" alt="">
+      </div>
+    </section><!-- End App Features Section -->
+
+    <!-- ======= Details Section ======= -->
+    <section id="details" class="details">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-md-4" data-aos="fade-right">
+            <img src="../../images/data/concept.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-8 pt-4" data-aos="fade-up">
+            <h3 style="color: white;">Application Concept</h3>
+            <p style="color: white;">
+              IBlaze is a Taxi/Delivery application based on making offers and discussion between users and drivers, it has a very innovative concept that allows user to get best price and service.
+            </p>
+            <p style="color: white;">
+              IBlaze allow it vehicules network to send packages when they driving to there destination, this solution allows users to send it packages with ship price.
+            </p>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+            <img src="../../images/data/features.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+            <h3 style="color: white;">Application sub-features</h3>
+            <p style="color: white;">
+              IBlaze Taxi has two great main fonctionalities [call taxis and packages delivary] but also it has many sub features as:
+            </p>
+            <ul>
+              <li data-aos="fade-left" style="color: white;"><i class="bi bi-check" style="color: #f9861a;"></i> User, driver data collection.</li>
+              <li data-aos="fade-left" style="color: white;"><i class="bi bi-check" style="color: #f9861a;"></i> Online payment process.</li>
+              <li data-aos="fade-left" style="color: white;"><i class="bi bi-check" style="color: #f9861a;"></i> Subscribing formular.</li>
+              <li data-aos="fade-left" style="color: white;"><i class="bi bi-check" style="color: #f9861a;"></i> Developing and hosting two dashboards for app monitoring.</li>
+              <li data-aos="fade-left" style="color: white;"><i class="bi bi-check" style="color: #f9861a;"></i> OPT validation system.</li>
+              <li data-aos="fade-left" style="color: white;"><i class="bi bi-check" style="color: #f9861a;"></i> Hosting of OSRM server...</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="challenges" class="features">
+      <div class="container">
+        <div class="section-intro" data-num="02" data-aos="fade-up">
+          <h3 class="subhead">App challenges</h3>
+          <h3 class="display-1 col-xl-5">"With hard work and effort, you can achieve anything" <h6><em>Antoine Griezmann</em></h6></h3>
+      </div>
+        
+          <div class="row block-large-1-2 block-900-full work-positions">
+
+            <div class="column col-md-6 col-xl-6" data-aos="fade-up">
+                <div class="position">
+                    <div class="position__header">
+                        <h6>
+                            <span class="position__co"><a href="#" style="color: black;text-decoration-line: underline;">Open source</a></span>
+                        </h6>
+                        <div class="position__timeframe">
+                            Resource challenge
+                        </div>
                     </div>
-
-                    <h3 data-aos="fade-up">Introduction</h3>
-
-                    <p data-aos="fade-up">
-                        Iblaze Taxi is a Taxi Application that allows user to call a tax in just one click.
+                    <p>
+                        One of greatest challenges that I have faced to complete this project that I have to minimizate the coast of it so I had to write every single line by
+                        myself or use just open source programs.
                     </p>
                 </div>
             </div>
-        </div>
+            <div class="column col-md-6 col-xl-6" data-aos="fade-up">
+              <div class="position">
+                  <div class="position__header">
+                      <h6>
+                          <span class="position__co"><a href="#" style="color: black;text-decoration-line: underline;">Original idea</a></span>
+                      </h6>
+                      <div class="position__timeframe">
+                          Concept challenge
+                      </div>
+                  </div>
+                  <p>
+                      We spent to much time thinking about best solutions to satisfing both of drivers and custmers. 
+                  </p>
+              </div>
+          </div>
+          <div class="column col-md-12 col-xl-12" data-aos="fade-up" style="text-align: center;">
+            <div class="position center">
+                <div class="position__header">
+                    <h6>
+                        <span class="position__co"><a href="#" style="color: black;text-decoration-line: underline;">Solo developing the application</a></span>
+                    </h6>
+                    <div class="position__timeframe">
+                       Software challenge
+                    </div>
+                </div>
+                <p>
+                    I have devloped, hosted and uploded all the solution just by my self.
+                </p>
+            </div>
+          </div>
+        </div> <!-- work positions -->
+      </div>
     </section>
-    <!-- Java Script
-    ================================================== -->
-    <script src="../../js/jquery-3.2.1.min.js"></script>
-    <script src="../../js/plugins.js"></script>
-    <script src="./iblaze.js"></script>
-    <script src="../../js/main.js"></script>
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery" style="background-color: #1d1b37;">
+      <div class="container" data-aos="fade-up">
+        <div class="container">
+          <div class="section-intro" data-num="03" data-aos="fade-up" style="color: #3e3d4b;">
+            <h3 class="subhead">Gallery and demos</h3>
+            <h3 class="display-1 col-xl-5" style="color: white;">Let's go into the application</h3>
+        </div>
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p style="color: white;">Here is some screens from the real application</p>
+        </div>
+
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="../../images/data/iblaze/gallory1.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="../../images/data/iblaze/gallory1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="../../images/data/iblaze/gallory2.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="../../images/data/iblaze/gallory2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="../../images/data/iblaze/gallory3.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="../../images/data/iblaze/gallory3.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="../../images/data/iblaze/gallory4.png" class="gallery-lightbox" data-gall="gallery-carousel"><img src="../../images/data/iblaze/gallory4.png" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    <section id="technology" class="features">
+      <div class="container">
+        <div class="section-intro" data-num="04">
+          <h3 class="subhead">App technologies</h3>
+          <h3 class="display-1 col-xl-5">Learn more about the application materiels</h6></h3>
+        </div>
+        <div class="section-title">
+          <p style="">There is the list of technologies and tools that I have worked with to complete IBlaze</p>
+        </div>
+          <div class="" style="display: flex; justify-content: center; flex-wrap: wrap;">
+            <div style="margin-right: 3%">
+              <div class="a-box box_tech">
+                <div class="img-container technology-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="../../images/data/flutter-logo.jpg" >
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>Flutter framework</h3>
+                  <div >
+                    An open-source UI development kit created by Google to develop cross platform apps.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-right: 3%">
+              <div class="a-box box_tech">
+                <div class="img-container technology-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="../../images/data/node-logo.jpg" style="width: 335px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>NodeJs</h3>
+                  <div>
+                    An open-source, cross-platform, JavaScript runtime environment for backend apps.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-right: 3%">
+              <div class="a-box box_tech">
+                <div class="img-container technology-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="../../images/data/express-logo.jpg" style="width: 350px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>ExpressJs</h3>
+                  <div>
+                    An open-source back end web application framework for Node.js relrased by MIT License.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-right: 3%">
+              <div class="a-box box_tech">
+                <div class="img-container technology-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="../../images/data/parse-server-logo.jpg" style="width: 350px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>ParseSDK</h3>
+                  <div>
+                    An open-source back-end solution that enables developers to build mobile apps quickly.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-right: 3%">
+              <div class="a-box box_tech">
+                <div class="img-container technology-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="../../images/data/mongo-logo.jpg" style="width: 350px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>MongoDB</h3>
+                  <div>
+                    A source-available cross-platform document-oriented NoSQL database program.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-right: 3%">
+              <div class="a-box box_tech">
+                <div class="img-container technology-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="../../images/data/git-logo.jpg" style="width: 325px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>Git</h3>
+                  <div>
+                    A open source distributed version control system designed to handle project fragments with speed.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-right: 3%">
+              <div class="a-box box_tech">
+                <div class="img-container technology-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="../../images/data/figma-logo.jpg" style="width: 325px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>Figma</h3>
+                  <div>
+                    A vector graphics editor and prototyping tool which is primarily web-based used for designed UI.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-right: 3%">
+              <div class="a-box box_tech">
+                <div class="img-container technology-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="../../images/data/heroku-logo.jpg" style="width: 325px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>Heroku</h3>
+                  <div>
+                    A platform as a service that enables developers to build, run, and operate apps entirely in the cloud.
+                </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-right: 3%">
+              <div class="a-box box_tech">
+                <div class="img-container technology-container">
+                  <div class="img-inner">
+                    <div class="inner-skew">
+                      <img src="../../images/data/docker-logo.jpg" style="width: 325px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <h3>Docker</h3>
+                  <div style="font-size: 13px;"> 
+                    A set of platform as a service products that use OS-level virtualization to deliver app in packages.
+                </div>
+                </div>
+              </div>
+            </div>
+      </div> <!-- work positions -->
+    </section>
+    <section id="custmers" class="testimonials" style="background-color: #0b0a15;">
+
+      <div class="container">
+        <div class="section-intro" data-num="05" style="color: #3e3d4b;">
+          <h3 class="subhead">Custmers</h3>
+          <h3 class="display-1 col-xl-5" style="color: white;">The application application has crafted for who?</h3>
+          <p class="lead" style="color: white;">
+          There is some of IBlaze status on app store, play store and the world. </br>
+          Rq: Those data toked at 20/03/2022 that's mean that IBlaze still in test phase.
+          </p>
+        </div>
+        <div class="status">
+          <div class="status-column">
+            <div class="counter count">6</div>
+            <div class="counter">Countries</div>
+          </div>
+          <div class="status-column">
+            <div class="counter count">+300</div>
+            <div class="counter">Trips</div>
+          </div>
+          <div class="status-column">
+            <div class="counter count">+500</div>
+            <div class="counter">Downlaods</div>
+          </div>
+          <div class="status-column">
+            <div class="counter count">5</div>
+            <div class="counter">Stars</div>
+          </div>
+          <div class="status-column">
+            <div class="counter count">85</div>
+            <div class="counter">Drivers</div>
+          </div>
+        </div>
+        <p class="lead" style="color: white; margin-top: 5%;">
+          There is some Costumers feedBack. </br>
+        </p>
+        <div class="testimonials-slider swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="../../images/data/iblaze/customers/1556373029855.jpg" class="testimonial-img" alt="">
+                <h3>Sahbi MILED</h3>
+                <h4>Technical director Of SAMA Group</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Cool and good job...
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="../../images/data/iblaze/customers/1641477384841.jpg" class="testimonial-img" alt="">
+                <h3>Aymen Ghaouali</h3>
+                <h4>IT DIRECTOR TECHNOLOGY SUPPORT EY TUNISIA & MAGHREB</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Great application and nice concept.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="../../images/data/iblaze/customers/1632305404677.jpg" class="testimonial-img" alt="">
+                <h3>Bounoua Meher</h3>
+                <h4>Marketing Manager</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Great job 👌.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section> <!-- End Testimonials Section -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../../vendor/aos/aos.js"></script>
+  <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../../css/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../../js/main.js"></script>
+  <script src="../../js/jquery-3.2.1.min.js"></script>
+  <script src="../../js/pages.js"></script>
+  <script>
+      $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 5000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+  });
+  </script>
 </body>
+
+</html>
